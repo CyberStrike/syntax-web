@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "coffee-script": "^1.12.4",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-slim": "^0.3.0"
+  }
+}

@@ -1,0 +1,21 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Fira Code', MonoSpace;
+  font-size: 16px;
+  background: #180026; }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between; }
+
+.logotext {
+  font-weight: 900;
+  font-size: 10rem;
+  color: lime;
+  text-shadow: 5px 5px 0px #084d00; }
