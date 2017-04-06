@@ -1,0 +1,10 @@
+/* TEAM */
+  Wizard: Chris Scott
+  Contact: chris [at] syntax.miami
+  Twitter: @CyberStrike
+  From: Montego Bay, Jamaica
+
+/* SITE */
+  Language: English
+  Doctype: HTML5
+  IDE: Atom
