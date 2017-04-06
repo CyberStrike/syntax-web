@@ -7,13 +7,13 @@ html lang="en"
     meta http-equiv="X-UA-Compatible" content="ie=edge"
     
     // SEO
-    meta name="description"        content= description
-    meta property="og:url"         content= url
-    meta property="og:title"       content= meta["og:title"]
-    meta property="og:site:name"   content= title
-    meta property="og:description" content= description
-    meta property="og:image"       content="https//syntax.miami/assets/syntax-icon.png" 
-    link rel="canonical" href=url
+    meta     name= "description"    content= description
+    meta property= "og:url"         content= url
+    meta property= "og:title"       content= meta["og:title"]
+    meta property= "og:site:name"   content= title
+    meta property= "og:description" content= description
+    meta property= "og:image"       content= "https//syntax.miami/assets/syntax-icon.png" 
+    link      rel= "canonical"         href= url
 
     //Assets
     link rel="icon shortcut" type="image/png" href="assets/icons/syntax-icon-trans.png">
@@ -24,5 +24,16 @@ html lang="en"
     
 body
   .container
-    span.logotext 
+    span.logotext
       | {}
+    .call-out
+      p 
+        | Hi. We’re
+        span.txt-syntax &nbsp&#123;syntax&#125;
+      span.txt-syntax &#123;&nbsp
+      | Design 
+      span.txt-syntax + 
+      | Code
+      span.txt-syntax &nbsp&#125;      
+  
+  include g_analytics

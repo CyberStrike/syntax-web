@@ -21,11 +21,12 @@ gulp.task 'sass', ->
 
 # Slim
 gulp.task 'slim', ->
-  console.log site_data
   gulp.src path.src.slim
     .pipe slim
       pretty: true
       data: site_data
+      require: 'slim/include'
+      options: 'include_dirs=[Dir.pwd, "./src/slim/components"]'
     .pipe gulp.dest path.dest.html
 
 # Watch for file changes

@@ -19,3 +19,12 @@ body {
   font-size: 10rem;
   color: lime;
   text-shadow: 5px 5px 0px #084d00; }
+
+.call-out {
+  color: white;
+  font-size: 1.5rem;
+  text-align: center; }
+
+.txt-syntax {
+  font-weight: 900;
+  color: lime; }
